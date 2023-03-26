@@ -17,12 +17,12 @@ func main() {
 
 	a := proxy.Proxy{}
 
+	s := proxy.Socks{}
+
 	conn, err := a.InitSSH(host, user, pwd)
 	if err != nil {
 		log.Fatalf("failed to tunnel init ssh conneciton : %q", err)
 	}
 
-	if err := a.Tunnel(conn, fmt.Sprintf("%v:%v", proxyAddr, proxyPort)); err != nil {
-		log.Fatalf("failed to tunnel traffic: %q", err)
-	}
+	s.Run(conn, fmt.Sprintf("%v:%v", proxyAddr, proxyPort))
 }
