@@ -1,12 +1,19 @@
-# Ligornette 🦄
+# Ligornette
 
-## Proxy through SSH tunnel using go 
-[WIP] To learn how the socks5 protocol works and build something by our hands.
+[![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
+[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/artfxdev/silex_GoKillProcess)](https://github.com/OlivierArgentieri/Ligornette)
+
+[WIP] Proxy through SSH tunnel using go 
 
 
-![](./assets/protocol.png)
-
+<br>
+<p align="center">
+  <img width="300" src="./assets/goasunicorn.png">
+  <br><br>
+  Little project to learn how the socks5 protocol works and build something by our hands.<br>
+</p>
+<br>
 
 ## From:
-- [Medium SOCKS 5 — A Proxy Protocol](https://medium.com/@nimit95/socks-5-a-proxy-protocol-b741d3bec66c)
+- [Medium SOCKS 5 - A Proxy Protocol](https://medium.com/@nimit95/socks-5-a-proxy-protocol-b741d3bec66c)
 - [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc1928)
