@@ -46,6 +46,7 @@ func (p *Proxy) Tunnel(conn *ssh.Client, local string) error {
 			return err
 		}
 		bufConn := bufio.NewReader(here)
+
 		// client ip
 		clientIP, _, err := net.SplitHostPort(here.RemoteAddr().String())
 		client := net.ParseIP(clientIP)
