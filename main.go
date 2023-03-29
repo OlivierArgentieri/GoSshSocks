@@ -11,6 +11,10 @@ import (
 func main() {
 	proxyAddr := "localhost"
 	cmd.Execute()
+
+	if cmd.Host == "" || cmd.User == "" {
+		return
+	}
 	a := proxy.Proxy{}
 
 	s := proxy.Socks{}
