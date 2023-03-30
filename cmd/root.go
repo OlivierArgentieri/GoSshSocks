@@ -10,8 +10,8 @@ var Password string
 var LocalProxyPort string
 
 var rootCmd = &cobra.Command{
-	Use:   "Gotruc",
-	Short: "Gotruc is used to create a local socks5 Proxy server to redirect your connection through an ssh tunnel.",
+	Use:   "GoSshSocks",
+	Short: "GoSshSocks is used to create a local socks5 Proxy server to redirect your connection through an ssh tunnel.",
 }
 
 func Execute() error {

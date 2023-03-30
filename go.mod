@@ -1,4 +1,4 @@
-module github.com/OlivierArgentieri/ligornete
+module github.com/OlivierArgentieri/gosshsocks
 
 go 1.18
 

@@ -1,14 +1,14 @@
-# Ligornette
+# GoSshSocks
 
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
-[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/artfxdev/silex_GoKillProcess)](https://github.com/OlivierArgentieri/Ligornette)
+[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/OlivierArgentieri/GoSshSocks)](https://github.com/OlivierArgentieri/GoSshSocks)
 
 [WIP] Proxy through SSH tunnel using go 
 
 
 <br>
 <p align="center">
-  <img width="300" src="./assets/goasunicorn.png">
+  <img width="300" src="./assets/protocol.png">
   <br><br>
   Little project to learn how the socks5 protocol works and build something by our hands.<br>
 </p>

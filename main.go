@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/OlivierArgentieri/ligornete/cmd"
-	"github.com/OlivierArgentieri/ligornete/proxy"
+	"github.com/OlivierArgentieri/gosshsocks/cmd"
+	"github.com/OlivierArgentieri/gosshsocks/proxy"
 )
 
 func main() {
