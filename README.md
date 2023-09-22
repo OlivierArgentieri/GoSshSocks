@@ -14,6 +14,9 @@
 </p>
 <br>
 
+## Why ?
+Basically, to redirect your connection through ssh server, a bit like a vpn, poor man's vpn.
+
 ## From:
 - [Medium SOCKS 5 - A Proxy Protocol](https://medium.com/@nimit95/socks-5-a-proxy-protocol-b741d3bec66c)
 - [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc1928)
